@@ -83,6 +83,7 @@ a:visited{
     margin: 20px 0; top and bottom 20px, left and right 0px
     */
 }
+
 .box-1 h1{
     font-family: Tahoma;
     font-weight: 800;
@@ -125,6 +126,7 @@ a:visited{
 .my-form{
     padding: 20px;
 }
+
 .my-form .form-group{
     padding-bottom: 15px;
 }

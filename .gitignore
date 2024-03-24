@@ -8,6 +8,7 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+**/.DS_Store
 
 # Local History for Visual Studio Code
 .history/
@@ -19,6 +20,6 @@
 # Ignore all local history of files
 .history
 .ionide
-**/.DS_Store
+
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
