@@ -168,6 +168,10 @@ a:visited{
     border: 1px solid #000;
     margin-top: 30px;
     position: relative;
+    background-image: url('../assets/background.jpeg');
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center center;
 }
 
 .p-box h1{
@@ -185,4 +189,20 @@ a:visited{
 .fix-me{
     position: fixed;
     top: 400px;
+}
+
+.my-list li:first-child{
+    background: palegreen;
+}
+
+.my-list li:last-child{
+    background: palevioletred;
+}
+
+.my-list li:nth-child(5){
+    background: paleturquoise;
+}
+
+.my-list li:nth-child(even){
+    background: lightslategray;
 }
