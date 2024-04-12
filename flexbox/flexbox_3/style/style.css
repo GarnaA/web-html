@@ -1,0 +1,35 @@
+.parent{
+    display: flex;
+    padding: 5px;
+    border: 1px solid black;
+    justify-content: center;
+    /*
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    */
+}
+
+.child{
+    width: 100px;
+    padding: 10px;
+    margin: 0;
+    color:white;
+    flex-grow:1;
+}
+
+.child:first-of-type{
+    background-color: red;
+    /*flex-shrink: 1;*/
+    order: 2;
+}
+
+.child:nth-of-type(2){
+    background-color: blue;
+    order: 3;
+}
+
+.child:nth-of-type(3){
+    background-color: green;
+    order: 1;
+}
